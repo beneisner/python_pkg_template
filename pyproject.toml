@@ -38,6 +38,9 @@ build_docs = [
 [tool.setuptools]
 packages = ["python_pkg_template"]
 
+[tool.setuptools.package-data]
+python_pkg_template = ["py.typed"]
+
 [tool.isort]
 profile = "black"
 
